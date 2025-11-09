@@ -9,7 +9,9 @@ You can watch the video demonstration of the application [here](https://youtu.be
 
 Note: I am using Jetbrain DataGrip instead of pgAdmin in this demonstration.
 
-# Requirements
+# Running the Application
+
+## Install Requirements
 
 Run the following command from the base project directory to install the requirements:
 
@@ -17,13 +19,13 @@ Run the following command from the base project directory to install the require
 pip install -r src/requirements.txt
 ```
 
-# Configuration
+## Configuration
 
 At the top of `main.py` is a dictionary containing the values needed to connect to your local PostGresDB instance. 
 Change these values to reflect your local settings. 
 
 
-# Running
+## Running
 In the base project directory, run:
 
 ```
@@ -32,7 +34,7 @@ python src/main.py
 
 The program will wait for any keypress input before continuing its execution. 
 
-## Note about execution
+### Note about execution
 
 Note that due to the implementation of the `deleteStudent(student_id)` function, the hard-coded value for the 
 student id is `4`, reflecting a newly added user. If user `4` is deleted and the program is run again, the next user 
