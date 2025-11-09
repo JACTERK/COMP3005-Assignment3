@@ -1,8 +1,7 @@
 # COMP 3005 Assignment 3
 
-### Jacob Terkuc
-### 101196620
-### Due: November 9th, 2025
+#### Jacob Terkuc
+#### Due: November 9th, 2025
 
 # Video Link
 
@@ -15,7 +14,7 @@ Note: I am using Jetbrain DataGrip instead of pgAdmin in this demonstration.
 Run the following command from the base project directory to install the requirements:
 
 ```
-pip install -r requirements.txt
+pip install -r src/requirements.txt
 ```
 
 # Configuration
@@ -28,7 +27,7 @@ Change these values to reflect your local settings.
 In the base project directory, run:
 
 ```
-python main.py
+python src/main.py
 ```
 
 The program will wait for any keypress input before continuing its execution. 
@@ -41,4 +40,4 @@ will have a student id of `5`, which will cause `deleteStudent()` to error out. 
 `students` table from scratch.
 
 The program assumes that a table `students` has already been created in the database. This can be done with the 
-provided `a3-create.sql` file. 
+provided `DB/a3-create.sql` file. 
