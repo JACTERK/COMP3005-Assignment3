@@ -1,5 +1,5 @@
 # COMP 3005 Assignment 3
-# Jacob Terkuc -- 101196620
+# Jacob Terkuc
 # November 9th, 2025
 
 import psycopg
